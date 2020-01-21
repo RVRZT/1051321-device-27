@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Василий Коровкин](https://up.htmlacademy.ru/htmlcss/27/user/1051321).
-* Наставник: `Неизвестно`.
+* Наставник: [Владислав Кривокора](https://htmlacademy.ru/profile/krivokora).
 
 ---
 
