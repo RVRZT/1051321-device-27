@@ -20,10 +20,13 @@
       </nav>
       <ul>
         <li>
-          <button type="button">Войти</button>
+          <a href="login.html">Войти</a>
         </li>
       </ul>
-      <!-- Здесь будет форма -->
+      <form action="https://echo.htmlacademy.ru" method="get">
+        <label for="search" class="visually-hidden">Строка поиска</label>
+        <input type="search" name="search" id="search" placeholder="Поиск по сайту">
+      </form>
       <div>
         <span>Каталог товаров</span>
           <ul>
@@ -38,7 +41,7 @@
     </header>
 
     <main>
-      <h1>Интернет-магазин "Device"</h1>
+      <h1 class="visually-hidden">Интернет-магазин "Device"</h1>
 
       <ul>
         <li>
@@ -184,6 +187,34 @@
         <a href=""><img src="img/map.jpg" width="560" height="222" alt="Карта офиса по адресу улица Строителей, 15"></a>
         <button type="button">Напишите нам</button>
       </section>
+
+      <section>
+        <h2 class="visually-hidden">Напишите нам</h2>
+        <form action="https://echo.htmlacademy.ru" method="post">
+          <p>
+          <label for="name">Ваше имя:</label>
+          <input type="text" name="name" id="name" placeholder="Имя Фамилия">
+          </p>
+          <p>
+          <label for="email">Ваш e-mail:</label>
+          <input type="email" name="email" id="email" placeholder="email@example.com">
+          </p>
+          <p>
+          <label for="letter">Текст письма:</label>
+          <textarea name="letter" id="letter" placeholder="В свободной форме"></textarea>
+          </p>
+          <button type="submit">Отправить</button>
+        </form>
+          <button type="button">Закрыть</button>
+      </section>
+
+      <section>
+        <h2 class="visually-hidden">Как до нас добраться</h2>
+        <p>
+          <img src="img/map-big.png" width="960" height="559" alt="Карта офиса по адресу улица Строителей, 15">
+        </p>
+        <button type="button">Закрыть</button>
+      </section>
     </main>
 
     <footer>
@@ -194,7 +225,7 @@
         г. Москва, ул. Строителей, 15
       </p>
       <p>
-        Тел: +7 (495) 495-95-95
+        <a href="tel:+74954959595">Тел: +7 (495) 495-95-95</a>
       </p>
         <ul>
           <li><a href="">Сравнить</a></li>
@@ -211,7 +242,7 @@
       <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
       <ul>
         <li>
-          <button type="button">Войти</button>
+          <a href="login.html">Войти</a>
         </li>
       </ul>
     </footer>
