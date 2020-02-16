@@ -375,7 +375,3 @@ input[type="radio"]:disabled + label {
 .popup-hidden {
   display: none;
 }
-
-.catalog-navigation {
-  display: none;
-}
