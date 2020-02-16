@@ -57,10 +57,34 @@ a {
   color: #000000;
 }
 
+.user-btn:hover {
+  opacity: 0.6;
+}
+
+.user-btn:active {
+  opacity: 0.3;
+}
+
+.nav-btn:hover {
+  opacity: 0.6;
+}
+
+.nav-btn:active {
+  opacity: 0.3;
+}
+
 /*---------------------------НАЧАЛО HEADER-----------------------*/
 
 .main-navigation {
   background-color: #f7e296;
+}
+
+.main-logo:hover {
+  opacity: 0.6;
+}
+
+.main-logo:active {
+  opacity: 0.3;
 }
 
 .search-line input {
@@ -69,38 +93,19 @@ a {
   font-weight: 300;
   background-color: transparent;
   border: none;
+  opacity: 0.3;
 }
 
-.site-navigation a,
-.menu-open {
-  font-family: "Gilroy", "Arial", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 24px;
-  letter-spacing: 3.6px;
-  text-transform: uppercase;
+input[type="search"]::-webkit-input-placeholder {
   color: #000000;
 }
 
-
-.user-navigation,
-.catalog-navigation {
- font-family: "Open sans", "Arial", sans-serif;
- font-size: 15px;
- font-weight: 300;
- line-height: 30px; 
+.search-line input:hover {
+  opacity: 0.6;
 }
 
-.site-navigation,
-.user-navigation,
-.catalog-navigation {
-  list-style: none;
-}
-
-.site-navigation a,
-.user-navigation a,
-.catalog-navigation a {
-  color: #000000;
+.search-line input:focus {
+  opacity: 1;
 }
 
 .btn-search {
@@ -118,6 +123,49 @@ a {
   color: #ffffff;
 }
 
+.site-navigation a,
+.menu-open {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 3.6px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.user-navigation,
+.catalog-navigation {
+ font-family: "Open sans", "Arial", sans-serif;
+ font-size: 15px;
+ font-weight: 300;
+ line-height: 30px; 
+}
+
+.log-out-btn {
+  opacity: 0.3;
+}
+
+.site-navigation,
+.user-navigation,
+.catalog-navigation {
+  list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a,
+.catalog-navigation a {
+  color: #000000;
+}
+
+.catalog-btn:hover {
+  opacity: 0.6;
+}
+
+.catalog-btn:active {
+  opacity: 0.3;
+}
+
 /*---------------------------КОНЕЦ HEADER-------------------------*/
 
 /*--------------------------НАЧАЛО MAIN-------------------------*/
@@ -127,6 +175,42 @@ a {
   font-size: 47px;
   font-weight: 800;
   line-height: 48px;
+}
+
+.bread-crumbs {
+  list-style: none;
+}
+
+.bread-crumbs a {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.3;
+}
+
+.bread-btn:hover {
+  opacity: 0.6;
+}
+
+.bread-btn:active {
+  opacity: 0.1;
+}
+
+input[type="checkbox"]:hover,
+input[type="radio"]:hover {
+  opacity: 0.6;
+}
+
+input[type="checkbox"]:active,
+input[type="radio"]:active {
+  opacity: 1;
+}
+
+input[type="checkbox"]:disabled + label,
+input[type="radio"]:disabled + label {
+  color: #a6a6a6;
 }
 
 .filter-section {
@@ -227,6 +311,14 @@ a {
   background-color: #464646;
 }
 
+.footer-logo:hover {
+  opacity: 0.6;
+}
+
+.footer-logo:active {
+  opacity: 0.3;
+}
+
 .footer address {
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 15px;
@@ -274,6 +366,16 @@ a {
   color: #ffffff;
 }
 
+
+
+
+
+
+
 .popup-hidden {
+  display: none;
+}
+
+.catalog-navigation {
   display: none;
 }
