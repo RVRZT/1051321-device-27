@@ -59,12 +59,14 @@
       </ul>
 
       <section>
-        <h2>Фильтр:</h2>
+        <div class="background-filter">
+          <h2 class="filter-name">Фильтр:</h2>
+        </div>
         <div class="filter-section">
         <form action="https://echo.htmlacademy.ru" method="get">
-          <fieldset>
+          <fieldset class="cost-filter">
             <legend>Стоимость</legend>
-            <label for="filter-cost">Стоимость</label>
+            <label for="filter-cost" class="visually-hidden">Стоимость</label>
             <input type="range" id="filter-cost" min="0" max="10">
           </fieldset>
           <fieldset class="color-filter">
@@ -109,18 +111,17 @@
         </form>
         </div>
 
-        <div>
-          <h2>Сортировка</h2>
-          <ul>
-            <li><a href="">По цене</a></li>
-            <li><a href="">По типу</a></li>
-            <li><a href="">По популярности</a></li>
+        <div class="sorting">
+          <h2 class="filter-name">Сортировка:</h2>
+          <ul class="sorting-list">
+            <li><a class="sorting-active">По цене</a></li>
+            <li><a href="" class="sorting-filter">По типу</a></li>
+            <li><a href="" class="sorting-filter">По популярности</a></li>
           </ul>
           <a href="">По возрастанию</a>
           <a href="">По убыванию</a>
         </div>
 
-        
         <h2 class="visually-hidden">Список моноподов для селфи</h2>
         <ul class="item-list">
           <li>
@@ -162,13 +163,15 @@
         </ul>
       </section>
 
-        <ul>
-          <li><a>Назад</a></li>
-          <li><a>1</a></li>
-          <li><a href="">2</a></li>
-          <li><a href="">3</a></li>
-          <li><a href="">Вперед</a></li>
+      <div class="item-page-nav">
+        <ul class="page-list">
+          <li><a href="" class="page-nav"><span class="page-nav-opacity">Назад</span></a></li>
+          <li><a class="page-active">1</a></li>
+          <li><a href="" class="page-number">2</a></li>
+          <li><a href="" class="page-number">3</a></li>
+          <li><a href="" class="page-nav"><span class="page-nav-opacity">Вперед</span></a></li>
         </ul>
+      </div>
     </main>
 
     <footer class="footer">
